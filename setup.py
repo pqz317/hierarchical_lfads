@@ -5,7 +5,7 @@ from os import path
 here = path.abspath(path.dirname(__file__))
 
 setup(
-    name='wcst_latents',
+    name='hierarchical_lfads',
     version='0.0.0',
     description='Making hierarchical_lfads repo pip installable',
     author='Patrick Zhang',
