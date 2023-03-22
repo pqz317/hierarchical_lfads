@@ -160,8 +160,6 @@ class LogLikelihoodPoisson(nn.Module):
         
     def forward(self, k, lam):
 #         pdb.set_trace()
-        print(k.device)
-        print(lam.device)
         return loglikelihood_poisson(k, lam*self.dt)
 
 class LogLikelihoodPoissonSimple(nn.Module):
